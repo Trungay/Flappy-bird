@@ -16,7 +16,7 @@ surface = pygame.display.set_mode((surfaceWidth, surfaceHeight))
 pygame.display.set_caption('Flappy Bird')
 clock = pygame.time.Clock()
 
-img = pygame.image.load('flap.png')
+img = pygame.image.load('./flap.png')
 img_width = img.get_size()[0]
 img_height = img.get_size()[1]
 
